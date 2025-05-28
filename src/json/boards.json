@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "To Do",
+        "tasks": [
+            {
+                "id": 11,
+                "name": "Design Wireframes",
+                "description": "Create low-fidelity layouts for the app's UI components and user flow.",
+                "user": "Nainika"
+            },
+            {
+                "id": 12,
+                "name": "Set Up Project Structure",
+                "description": "Initialize the repository and organize folders for scalability and clarity.",
+                "user": "Vijay"
+            },
+            {
+                "id": 13,
+                "name": "Implement Authentication",
+                "description": "Add user sign-up, login, and session management features.",
+                "user": "Dev"
+            },
+            {
+                "id": 14,
+                "name": "Develop Dashboard UI",
+                "description": "Build the main dashboard interface with charts, summaries, and widgets.",
+                "user": "Nainika"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Doing",
+        "tasks": [
+            {
+                "id": 21,
+                "name": "Create AlertCard Component",
+                "description": "Build a reusable alert display card with animations and icon transitions.",
+                "user": "Dev"
+            },
+            {
+                "id": 22,
+                "name": "Integrate API Data",
+                "description": "Connect frontend components to backend APIs and display live data.",
+                "user": "Vijay"
+            },
+            {
+                "id": 23,
+                "name": "Implement State Management",
+                "description": "Use context or a library like Redux/Zustand to manage app-wide state.",
+                "user": "Nainika"
+            },
+            {
+                "id": 24,
+                "name": "Optimize Animations",
+                "description": "Fine-tune Framer Motion animations for smooth, performant transitions.",
+                "user": "Dev"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Done",
+        "tasks": [
+            {
+                "id": 31,
+                "name": "Write Unit Tests",
+                "description": "Create tests to ensure core components and functions work correctly.",
+                "user": "Vijay"
+            },
+            {
+                "id": 32,
+                "name": "Deploy to Production",
+                "description": "Set up CI/CD and deploy the app to a platform like Vercel or Netlify.",
+                "user": "Nainika"
+            },
+            {
+                "id": 33,
+                "name": "Add Responsive Design",
+                "description": "Ensure the app looks great on mobile, tablet, and desktop devices.",
+                "user": "Dev"
+            },
+            {
+                "id": 34,
+                "name": "Conduct UX Testing",
+                "description": "Gather user feedback through testing to improve usability and flow.",
+                "user": "Vijay"
+            }
+        ]
+    }
+]

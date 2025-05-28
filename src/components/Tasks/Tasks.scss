@@ -1,0 +1,65 @@
+.task-card {
+  padding: 14px;
+  margin: 10px 0 0;
+  box-shadow: 0 1px 3px #dcdfe2;
+  border-radius: 4px;
+  background: #ffffff;
+  transition: box-shadow 0.3s;
+  transition: border 0.3s;
+  font-size: 14px;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+  }
+  .task-hd,
+  .task-bd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+      margin: 0;
+      max-width: calc(100% - 110px);
+      display: flex;
+      align-items: center;
+      transition: all 0.3s;
+      &:hover {
+        color: #25476e;
+        transition: all 0.3s;
+      }
+    }
+    .tick-icon {
+      display: inline-block;
+      margin-right: 2px;
+    }
+  }
+  .task-bd {
+    margin-top: 2px;
+    font-size: 14px;
+    color: #313949;
+    .task-items {
+      width: calc(100% - 60px);
+      .task-item {
+        display: flex;
+        gap: 14px;
+        margin-top: 6px;
+        .task {
+          max-width: 50%;
+          width: 50%;
+        }
+      }
+      .task-user {
+        font-weight: bold;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+.dragging {
+  .task-card {
+    border: 2px solid #d1d1d1;
+    transition: border 0.3s;
+  }
+}
+
