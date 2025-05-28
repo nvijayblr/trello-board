@@ -2,6 +2,15 @@
 
 ### Database
 
+#### Users
+| Column          | Type             | Description           |
+| --------------- | ---------------- | --------------------- |
+| `id`            | UUID / INT       | Primary key           |
+| `name`          | VARCHAR          | Full name             |
+| `email`         | VARCHAR (UNIQUE) | Email address         |
+| `password_hash` | VARCHAR          | Hashed password       |
+| `created_at`    | TIMESTAMP        | Account creation time |
+
 
 ### Backend
 
